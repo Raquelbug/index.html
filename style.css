@@ -1,0 +1,67 @@
+/* style.css */
+
+body {
+font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+color: #333;
+}
+
+header {
+background-color: #007acc;
+color: white;
+padding: 2rem;
+text-align: center;
+}
+
+header h1 {
+margin: 0;
+font-size: 2.5rem;
+}
+
+header p {
+margin: 0.5rem 0 0;
+font-size: 1.2rem;
+}
+
+main {
+padding: 2rem;
+max-width: 1000px;
+margin: auto;
+}
+
+.projeto {
+background-color: white;
+padding: 1.5rem;
+margin-bottom: 1.5rem;
+border-radius: 8px;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+transition: transform 0.2s ease;
+}
+
+.projeto:hover {
+transform: scale(1.02);
+}
+
+.projeto h2 {
+margin-top: 0;
+color: #007acc;
+}
+
+.projeto a {
+color: #007acc;
+text-decoration: none;
+font-weight: bold;
+}
+
+.projeto a:hover {
+text-decoration: underline;
+}
+
+footer {
+text-align: center;
+padding: 1rem;
+background-color: #ddd;
+margin-top: 2rem;
+}
