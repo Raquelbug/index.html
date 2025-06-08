@@ -1,67 +1,44 @@
-/* style.css */
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;700&display=swap');
+
+:root {
+    --cor-principal: #6E859F;
+    --cor-secundaria: #284260;
+    --cor-destaque: #C92BFC;
+}
 
 body {
-font-family: 'Roboto', sans-serif;
-margin: 0;
-padding: 0;
-background-color: #f4f4f4;
-color: #333;
+    font-family: 'Chakra Petch', sans-serif;
+    color: var(--cor-principal);
+    background-color: #f8f9fa;
 }
 
-header {
-background-color: #007acc;
-color: white;
-padding: 2rem;
-text-align: center;
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
 }
 
-header h1 {
-margin: 0;
-font-size: 2.5rem;
+.lead {
+    color: var(--cor-destaque);
+    font-weight: 700;
 }
 
-header p {
-margin: 0.5rem 0 0;
-font-size: 1.2rem;
+.btn-link {
+    color: var(--cor-destaque);
+    font-weight: 600;
+    text-decoration: none;
 }
 
-main {
-padding: 2rem;
-max-width: 1000px;
-margin: auto;
+.btn-link:hover {
+    color: var(--cor-secundaria);
+    text-decoration: underline;
 }
 
-.projeto {
-background-color: white;
-padding: 1.5rem;
-margin-bottom: 1.5rem;
-border-radius: 8px;
-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-transition: transform 0.2s ease;
-}
-
-.projeto:hover {
-transform: scale(1.02);
-}
-
-.projeto h2 {
-margin-top: 0;
-color: #007acc;
-}
-
-.projeto a {
-color: #007acc;
-text-decoration: none;
-font-weight: bold;
-}
-
-.projeto a:hover {
-text-decoration: underline;
+.card {
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
 }
 
 footer {
-text-align: center;
-padding: 1rem;
-background-color: #ddd;
-margin-top: 2rem;
+    margin-top: 50px;
+    color: var(--cor-principal);
 }
